@@ -7,13 +7,16 @@
   "author": "hyunwoo.shim <shim.hw0810@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "postcss-modules": "^1.3.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.9.3"
   },
   "scripts": {
     "start": "parcel index.html"
